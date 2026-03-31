@@ -5,7 +5,7 @@ if rpm -q $PACKAGE &>/dev/null; then
     rpm -qi $PACKAGE | grep -E 'Version|License|Summary'
 else
     echo "$PACKAGE is NOT installed."
-fi
+fin
 
 case $PACKAGE in
     httpd) 
