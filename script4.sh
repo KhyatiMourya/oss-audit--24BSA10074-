@@ -12,6 +12,7 @@ while true; do
         echo "File is empty. Retrying in 3 seconds..."
         sleep 3
     else
+    
         echo "File contains data. Proceeding..."
         break
     fi
