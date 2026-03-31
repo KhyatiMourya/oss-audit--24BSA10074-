@@ -14,6 +14,7 @@ for DIR in "${DIRS[@]}"; do
     else
         echo "$DIR does not exist on this system"
     fi
+    
 done
 CONFIG_DIR="/etc/gitconfig" 
 
